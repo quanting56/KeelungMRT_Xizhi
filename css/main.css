@@ -1,0 +1,23 @@
+@keyframes increaseTextSize  {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 60px;
+    }
+}
+
+.text-container {
+    height: 200px;
+    width: 500px;
+    position: relative;
+    top: 37.5vh;
+    left: 32.5vw;
+    font-weight: bold;
+    color: black;
+    animation: increaseTextSize 10s normal forwards; /* 使用 keyframes 動畫 */
+}
+.text-container .first-paragraph {
+    text-decoration: underline;
+
+}
