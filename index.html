@@ -182,6 +182,7 @@
 	});
 });
     </script>
+
 <!-- GOV & SUGG -->
     <script>
       $(document).ready(function () {
@@ -194,7 +195,7 @@
 		console.log(scrolled + "/" + out_pos);
 
 		if (scrolled > out_pos && scrolled < out_pos + max_scroll) {
-			var new_width = (win_w * (scrolled - out_pos)) / max_scroll;
+			var new_width = 1280 - ((win_w * (scrolled - out_pos)) / max_scroll);
 			$("#SUGG").css({
 				width: new_width
 			});
@@ -209,8 +210,8 @@
 
 
 
-<!-- Ting先做下面 -->>
-
+<!-- Ting先做下面 -->
+<p>—————————————————————————————————————————————————————</p>
         <div id="possible_improvements">
           <h1>可能的改善方案</h1>
             <p>&emsp;&emsp;為解決民汐線與基隆捷運路網Y字營運的問題，在未完全開工前，目前政府至少還能有以下幾種選擇：</p>
@@ -286,13 +287,63 @@
           </section>
         </div>
 
-<!-- 困難所在 -->
-        <div id="the_difficulty" style="height:100vh;background-color:#ffe699;">
-          <div class="text-center load-animate text-container">
-            <p class="bold-text">- 困難所在 -</p>
+<!-- 板南線東延樟樹灣之困難所在 -->
+        <div id="the_difficulty" style="height:200vh;background-color:#ffe699;">
+          <!-- 標題 -->
+          <div style="height: 200vh; background-color: #ffe699;display: flex; justify-content: center;">
+            <div style="height: 500px; background-color:rgb(205,233,247);border-radius: 10px; margin: 250px auto; padding: 15%; ">
+              <h1 style="text-align: center;">- 板南線東延樟樹灣之困難所在 -</h1>
+              <p style="text-align: center;">有哪些因素阻礙了板南線東延？</p>
+            </div>
           </div>
-          <div id="img16" style="height:100vh;background-color:#ffe699;"><a href="" target="_blank"><img src="assets/The_Government's_Original_Plan.png" title="板南線樟樹灣站設站位置"></a>
-            <p>板南線樟樹灣站設站位置</p>
+          <!-- 設站位置（工程面） -->
+          <div>
+            <!-- 兩張板南線樟樹灣站設站位置圖 -->
+            <div class="container">
+              <div class="row" style="height:100vh;background-color:#ffe699;">
+                <div id="img16" class="col" style="margin: 5px;padding: 5px;border: 1px solid gray;height: auto;width: auto;text-align: center;">
+                  <p>▼臺北市捷運局評估板南線樟樹灣站設站位置</p>
+                  <a href="" target="_blank"><img src="assets/BL25_station_location_1.png" title="臺北市捷運局評估板南線樟樹灣站設站位置"></a>
+                </div>
+                <div id="img17" class="col" style="margin: 5px;padding: 5px;border: 1px solid gray;height: auto;width: auto;text-align: center;">
+                  <p>▼具有設站潛力之板南線樟樹灣站設站位置</p>
+                  <a href="" target="_blank"><img src="assets/BL25_station_location_2.png" title="具有設站潛力之板南線樟樹灣站設站位置"></a>
+                </div>
+              </div>
+            </div>
+            <!-- 文字解說 -->
+            <div style="height: 200vh; background-color: #ffe699;display: flex; justify-content: center;">
+              <div style="height: 500px; background-color:rgb(205,233,247);border-radius: 10px; margin: 250px auto; padding: 15%; ">
+                <h1 style="text-align: center;">設站位置（工程面）</h1>
+                <p style="text-align: center;">&emsp;&emsp;樟樹灣站附近的大同路一段的路寬僅20公尺，無法滿足高運量捷運地下車站22公尺寬的需求，或得徵收民房，然涉及土地徵收勢必會增添預算。或是於汐東線施工前的細部設計階段，一併將板南線站體空間予以保留或一同納入設計，但汐東線開工在即，此舉可能會造成汐東線工期延宕，讓部分汐止在地民眾心生不滿。</p>
+              </div>
+            </div>
+          </div>
+          <!-- 上轄機關不同 -->
+          <div style="height: 200vh; background-color: #ffe699;display: flex; justify-content: center;">
+            <div style="height: 500px; background-color:rgb(205,233,247);border-radius: 10px; margin: 250px auto; padding: 15%; ">
+              <h1 style="text-align: center;">上轄機關不同</h1>
+              <p style="text-align: center;">&emsp;&emsp;牽涉此案的政府機關眾多，基隆捷運由中央政府主導，板南線為臺北市管轄的捷運路線，板南線東延需由新北市政府出資，臺鐵第三軌由臺鐵局（未來臺灣鐵路公司）管理及使用。政府部門各司其職，跨部門溝通上曠日費時、勞心勞力，難以協調及取得共識，亦是板南線東延所面臨的一大難題。</p>
+            </div>
+          </div>
+          <!-- 部分民眾心聲 -->
+          <div style="height: 200vh; background-color: #ffe699;display: flex; justify-content: center;">
+            <div style="height: 500px; background-color:rgb(205,233,247);border-radius: 10px; margin: 250px auto; padding: 15%; ">
+              <div class="container">
+                <div class="row" style="height:100vh;background-color:#ffe699;">
+                  <!-- 左欄文字-->
+                  <div class="col" style="margin: 5px;padding: 5px;border: 1px solid gray;height: auto;width: auto;text-align: center;">
+                    <h1 style="text-align: center;">汐止人盼望捷運已久</h1>
+                    <p>為了盡快有捷運</p>
+                    <p>汐止人不願再有所耽擱</p>
+                  </div>
+                  <!-- 右欄新聞圖片-->
+                  <div id="img17" class="col" style="margin: 5px;padding: 5px;border: 1px solid gray;height: auto;width: auto;text-align: center;">
+                    <a href="" target="_blank"><img src="assets/BL25_station_location_2.png" title="具有設站潛力之板南線樟樹灣站設站位置"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -328,7 +379,8 @@
             </ul>                        
         </div>
       </div>
-
+<!-- 特別感謝 -->
+<!-- footer -->
       <div id="footer">
         <!-- 下方a後待插入href="#myPage" -->
         <a><p>back to top</p></a>
@@ -337,6 +389,7 @@
         <p>© 2023 Copyright</p>
       </div>
     </div>
+
     <script src="js/script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

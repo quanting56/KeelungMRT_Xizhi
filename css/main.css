@@ -121,7 +121,7 @@ body {
 }
 
   #GOV {
-    background-image: url(https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/The_Government%27s_Original_Plan.png);
+    background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/The_Suggested_Adjustments.png");
     background-size: cover;
     background-repeat: none;
     background-attachment: fixed;
@@ -129,7 +129,7 @@ body {
   }
   
   #SUGG {
-    background-image: url(https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/The_Suggested_Adjustments.png);
+    background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/The_Government_Original_Plan.png");
     background-size: cover;
     background-repeat: none;
     background-attachment: fixed;
@@ -167,37 +167,41 @@ body {
 /* 以下code勿碰 */
 
 #benefits_for_keelung div:first-child {
-    background-image: url("https://p4css.github.io/webScroll/assets/pingtong01.png");
+    background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/keelung_night_temporary.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #benefits_for_xizhi div:first-child {
-    background-image: url("https://p4css.github.io/webScroll/assets/pingtong02.png");
+    background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/xizhi_night_temporary.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #benefits_for_taipei_city div:first-child {
-    background-image: url("https://p4css.github.io/webScroll/assets/pingtong02.png");
+    background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/taipei_night_temporary.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-div #img16 {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid gray;
-    height: auto;
-    width: auto;
-    text-align: center;
-}
-
 div #img16 img {
     display: inline;
     margin: 5px;
-    width: 900px;
+    width: 500px;
     border: 1px solid #ffffff;
 }
+
+div #img17 img {
+    display: inline;
+    margin: 5px;
+    width: 500px;
+    border: 1px solid #ffffff;
+}
+
+body {
+    min-height: 100vh;
+  }
+
+  
