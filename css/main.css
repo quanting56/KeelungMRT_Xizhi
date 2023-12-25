@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 @keyframes increaseTextSize  {
     from {
         font-size: 20px;
@@ -17,7 +27,138 @@
     color: black;
     animation: increaseTextSize 10s normal forwards; /* 使用 keyframes 動畫 */
 }
-.text-container .first-paragraph {
+.first-paragraph {
     text-decoration: underline;
 
 }
+
+/* <!-- 圖片2002-2023 --> */
+#outer {
+	background-image: url(https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/Xizhi_2003_Satellite_Photo.png);
+	background-size: 100% 100%;
+	background-repeat: none;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#statusbar {
+	width: 0;
+	background-image: url(https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/Xizhi_2023_Satellite_Photo.png);
+	background-size: 100% 100%;
+	background-repeat: none;
+	background-attachment: fixed;
+}
+/* <!-- 圖片2002-2023文字 --> */
+#bg2023{
+    z-index: 0; 
+    width: 0;
+    /* background-image: url(https://p4css.github.io/webScroll/images/Linpen2019.jpg); */
+    background-size: cover;
+	background-repeat: none;
+	background-attachment: fixed;
+    
+}
+
+#文字2023{
+    z-index: 1; /* 确保内容在叠加层之上 */
+    height: 400px;
+    width: 800px;   
+    position: absolute;
+    left: -375px;
+    font-weight: bold;
+    background-color: rgba(61, 65, 68, 0.132);
+    color: black;
+    
+}
+
+#SB > div:first-child {
+        height: 100vh;
+        background-image: url("https://github.com/quanting56/KeelungMRT_Xizhi/raw/14dbb0b5bb83c299e9dfc73311e7471f22550cd2/assets/MRT_Minsheng_Xizhi_Line_1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index:-1;
+}
+#汐東捷運> div:first-child {
+    height: 100vh;
+    background-image: url("https://p4css.github.io/webScroll/assets/pingtong01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+}
+#KL> div:first-child {
+    height: 100vh;
+    background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/MRT_Keelung_Line.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+}
+#BL> div:first-child {
+    height: 100vh;
+    background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/MRT_Bannan_Line.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    z-index:-1;
+}
+
+#爭議何在{
+
+}
+/* <逐站介紹> */
+
+
+@keyframes slideRightToLeft {
+    from{
+        right: 0%;
+      }
+      to{
+        right: 100%;
+      }
+}
+
+  #GOV {
+    background-image: url(https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/The_Government%27s_Original_Plan.png);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    animation: slideRightToLeft 10s linear infinite;
+  }
+  
+  #SUGG {
+    background-image: url(https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/The_Suggested_Adjustments.png);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    animation: slideRightToLeft 10s linear infinite;
+  }
+
+#KL的效益 div:first-child {
+    background-image: url("https://p4css.github.io/webScroll/assets/pingtong01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#汐止的效益 div:first-child {
+    background-image: url("https://p4css.github.io/webScroll/assets/pingtong02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#TPE的效益 div:first-child {
+    background-image: url("https://p4css.github.io/webScroll/assets/pingtong02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#centered-div {
+    height:500px;
+    width: 600px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 35px; /* 可以根据需要调整内边距 */
+ }
