@@ -203,24 +203,7 @@
 });
     </script>
 <!-- <-爭議何在-> -->
-<script>
-$(function () {
-	var winh = $(window).height();
-	$(window).scroll(function () {
-		var scrolled = ($(window).scrollTop() / winh) * 100;
 
-		$(".b1").each(function () {
-			$(this).css("top", 50 + scrolled * 0.7 + "vh");
-		});
-		$(".b2").each(function () {
-			$(this).css("top", 50 + scrolled * 0.4 + "vh");
-		});
-		$(".b3").each(function () {
-			$(this).css("top", 50 + scrolled * 0.1 + "vh");
-		});
-	});
-});
-</script>
     </script>
         <div id="follow_more">
           <h1>關注更多</h1>
