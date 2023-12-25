@@ -161,4 +161,27 @@ body {
     /* justify-content: center; */
     /* align-items: center; */
     padding: 35px; /* 可以根据需要调整内边距 */
- }
+}
+
+
+/* 以下code勿碰 */
+
+#benefits_for_keelung div:first-child {
+    background-image: url("https://p4css.github.io/webScroll/assets/pingtong01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#汐止的效益 div:first-child {
+    background-image: url("https://p4css.github.io/webScroll/assets/pingtong02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#TPE的效益 div:first-child {
+    background-image: url("https://p4css.github.io/webScroll/assets/pingtong02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
