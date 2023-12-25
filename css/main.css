@@ -173,15 +173,31 @@ body {
     background-size: cover;
 }
 
-#汐止的效益 div:first-child {
+#benefits_for_xizhi div:first-child {
     background-image: url("https://p4css.github.io/webScroll/assets/pingtong02.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#TPE的效益 div:first-child {
+#benefits_for_taipei_city div:first-child {
     background-image: url("https://p4css.github.io/webScroll/assets/pingtong02.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
+
+div #img16 {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+div #img16 img {
+    display: inline;
+    margin: 5px;
+    width: 900px;
+    border: 1px solid #ffffff;
+}
