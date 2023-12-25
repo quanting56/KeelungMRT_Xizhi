@@ -73,21 +73,21 @@ body {
 
 #SB > div:first-child {
         height: 100vh;
-        background-image: url("https://github.com/quanting56/KeelungMRT_Xizhi/raw/14dbb0b5bb83c299e9dfc73311e7471f22550cd2/assets/MRT_Minsheng_Xizhi_Line_1.png");
+        background-image: url("https://github.com/quanting56/KeelungMRT_Xizhi/raw/14dbb0b5bb83c299e9dfc73311e7471f22550cd2/assets/MRT_Minsheng_Xizhi_Line.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         z-index:-1;
 }
-#汐東捷運> div:first-child {
+#汐東捷運 > div:first-child {
     height: 100vh;
-    background-image: url("https://p4css.github.io/webScroll/assets/pingtong01.png");
+    background-image: url("https://github.com/quanting56/KeelungMRT_Xizhi/raw/14dbb0b5bb83c299e9dfc73311e7471f22550cd2/assets/MRT_Minsheng_Xizhi_Line_1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index:-1;
 }
-#KL> div:first-child {
+#KL > div:first-child {
     height: 100vh;
     background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/MRT_Keelung_Line.png");
     background-position: center;
@@ -95,7 +95,7 @@ body {
     background-size: cover;
     z-index:-1;
 }
-#BL> div:first-child {
+#BL > div:first-child {
     height: 100vh;
     background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/MRT_Bannan_Line.png");
     background-position: center;
