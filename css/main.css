@@ -108,17 +108,6 @@ body {
 #爭議何在{
 
 }
-/* <逐站介紹> */
-
-
-@keyframes slideRightToLeft {
-    from{
-        right: 0%;
-      }
-      to{
-        right: 100%;
-      }
-}
 
   #GOV {
     background-image: url("https://github.com/quanting56/KeelungMRT_Xizhi/raw/main/assets/The_Government_Original_Plan.png");
