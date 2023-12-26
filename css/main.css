@@ -52,6 +52,7 @@ body {
 	background-repeat: none;
 	background-attachment: fixed;
 }
+
 /* <!-- 圖片2002-2023文字 --> */
 #bg2023{
     z-index: 0; 
@@ -71,8 +72,7 @@ body {
     left: -375px;
     font-weight: bold;
     background-color: rgba(61, 65, 68, 0.132);
-    color: black;
-    
+    color: black;   
 }
 
 #SB > div:first-child {
@@ -111,6 +111,11 @@ body {
 
 #爭議何在{
 
+}
+
+#bg-img {
+    background-image: url(https://github.com/quanting56/KeelungMRT_Xizhi/raw/main/assets/keelung_night_temporary.jpg);
+    background-position: 0 0;
 }
 
   #GOV {
