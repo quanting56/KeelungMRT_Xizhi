@@ -37,10 +37,11 @@ body {
 }
 /* <!-- 導言 --> */
 #content{
-        background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/xizhi_landscape_temporary.jpeg");
-        background-size: 100% 100%;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
+    height: 250vh;
+    background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/xizhi_landscape_temporary.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* <!-- 圖片2002-2023 --> */
 #outer {
