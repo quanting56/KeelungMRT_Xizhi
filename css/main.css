@@ -35,7 +35,13 @@ body {
         font-size: 60px;
     }
 }
-
+/* <!-- 導言 --> */
+#content{
+        background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/xizhi_landscape_temporary.jpeg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+}
 /* <!-- 圖片2002-2023 --> */
 #outer {
 	background-image: url(https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/Xizhi_2003_Satellite_Photo.png);
