@@ -167,8 +167,13 @@ body {
     /* align-items: center; */
     padding: 35px; /* 可以根据需要调整内边距 */
 }
-
-
+/* 4站介紹 */
+#station {
+	background-image: url("https://raw.githubusercontent.com/quanting56/KeelungMRT_Xizhi/main/assets/Nangang_station_and_3_other_pictures.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* 以下code勿碰 */
 
 #benefits_for_keelung div:first-child {
